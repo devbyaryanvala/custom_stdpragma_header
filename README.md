@@ -12,7 +12,7 @@ To use stdpragma.h in your project, follow these simple steps:
 
 1. Clone the Repository:
 ```bash
-    git clone https://github.com/yourusername/custom_stdpragma_header.git
+    git clone https://github.com/devbyaryanvala/custom_stdpragma_header.git
 ```
 2. Copy the Header File:
 

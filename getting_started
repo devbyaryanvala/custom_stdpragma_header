@@ -1,0 +1,20 @@
+#Custom Header File for Preprocessor Directives
+
+This repository contains a custom pragma header file designed to facilitate the use of "pragma startup" and "pragma exit" preprocessor directives in C programs.
+
+##Getting Started
+
+To use the custom header file in your project, follow these simple steps:
+
+1. ###Clone the Repository:
+
+git clone https://github.com/yourusername/custom_stdpragma_header.git
+
+2. ###Copy the Header File:
+
+Copy the stdpragma.h file into your project directory.
+
+3. ###Include the Header File:
+
+In your C source files where you want to utilize this preprocessor directives, include the custom header file at the beginning:
+( #include "stdpragma.h" )

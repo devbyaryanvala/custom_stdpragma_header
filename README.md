@@ -37,7 +37,7 @@ pragma_startup syntax:
 pragma_exit syntax:
 
 ```c
-    pragma_exits(priority number, function name){
+    pragma_exit(priority number, function name){
         function content
     }
 ```

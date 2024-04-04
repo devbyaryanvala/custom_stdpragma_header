@@ -25,13 +25,31 @@ In your C source files, include the custom header file at the beginning:
 ```c
     #include "stdpragma.h"
 ```
+3. Syntex
 
+pragma_startup syntax:
+
+```c
+    pragma_startup(priority number, function name){
+        function content
+    }
+```
+pragma_exit syntax:
+
+```c
+    pragma_exits(priority number, function name){
+        function content
+    }
+```
 ### Example
 Here's an example demonstrating the usage of stdpragma.h:
 ```c
 #include <stdio.h>
 #include "stdpragma.h"
 
+//the first word "pragma_startup" is a function created to execute the ud function at the 2nd priority (as the number 2 before coma denotes) then we have called the fucntion which should be executed as per their priority.
+//same rule is applied on "pragma_exit".
+ 
 pragma_startup(2, startup_func1) {
     printf("Startup function 1 called.\n");
 }

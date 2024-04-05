@@ -31,14 +31,14 @@ pragma_startup syntax:
 
 ```c
     pragma_startup(priority number, function name){
-        function content
+        your code content
     }
 ```
 pragma_exit syntax:
 
 ```c
     pragma_exit(priority number, function name){
-        function content
+        your code content
     }
 ```
 ### Example
